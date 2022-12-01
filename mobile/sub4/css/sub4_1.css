@@ -1,0 +1,23 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+
+.con_area .con_list{
+  margin:3rem 4.5% 0;
+}
+.con_area .con_list li{
+  margin:1rem 0 0; padding:1.5rem 1.25rem; 
+  border:2px solid #eee; border-radius:10px; 
+  box-sizing:border-box;
+}
+.con_area .con_list li:first-child{margin-top:0;}
+.con_area .con_list li dl{}
+.con_area .con_list li dl dt{
+  font-size:1.125rem; 
+  letter-spacing:-0.045rem; color: #04cf5c;
+}
+.con_area .con_list li dl dd{
+  color:#888; text-align:justify; margin:1rem 0 0;
+}

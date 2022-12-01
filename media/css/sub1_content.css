@@ -1,0 +1,185 @@
+#content {
+  background: rgba(0, 0, 0, .8);
+  width: auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#content .about{
+  padding: 5.55555rem 3.125%; 
+  position: relative;
+}
+#content .intro{
+  text-align: center;
+  padding: 50px;
+}
+#content .intro h3{
+  font-size: 2.7777rem;
+  letter-spacing: 0.045rem;
+  color: #C9B76B;
+  margin-bottom: 50px;
+}
+#content .intro p{
+  line-height: 1.5em;
+  
+}
+#content .de{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+#content .de .imBox{
+  position: relative;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+#content .de .imBox img{
+  width: 100%;
+}
+#content .de .textBox{
+  text-align: justify;
+  line-height: 1.5em;
+ 
+}    
+#content .de .textBox strong{
+  display: block;
+  font-size:1.944rem;
+  letter-spacing: 0.045rem;
+  margin-bottom: 40px;
+  color: #C9B76B;
+}
+#content .history{
+  position: relative;
+  margin-bottom: 100px;
+}
+#content .history h3{
+  font-size: 2.7777rem;
+  letter-spacing: 0.045rem;
+  color: #C9B76B;
+  margin-bottom: 50px;
+}
+#content .history ul{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 64px 64px 120px 64px;
+}
+#content .history ul li{
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: all .5s;
+  outline: 4px solid rgba(0, 0, 0, .0);
+  border-radius: 4px;
+}
+#content .history ul li:first-child{
+  grid-column: 1/spen 2;
+  background-image: url(../images/sub1/m1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#content .history ul li:nth-child(2){
+  background-image: url(../images/sub1/m2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#content .history ul li:nth-child(3){
+  background-image: url(../images/sub1/m3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.history ul li::before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  right: 0;
+  z-index: -10;}
+
+#content .history ul li dl{
+    width: 50%;
+    float: right;
+}
+#content .history ul li dl dt{
+  font-weight: 600;
+  font-size: 1.333rem;
+  margin: 56px 32px 32px 32px;
+  position: relative;
+  line-height: 1.5em;
+  color: #C9B76B;
+}
+#content .history ul li dl dd{
+  margin: 0 32px 32px 32px;
+  color: #f7f7f7;
+  text-align: left;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+  .history ul li::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    right: 0;
+    z-index: -10;}
+#content .history ul li dl {
+  width: 100%;
+  float: none;
+  }
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+  #content{width: auto;}
+  #content .intro{
+    text-align: justify;
+    margin-bottom: 150px;
+  }
+  #content .intro h3{
+    text-align: center;
+  }
+  #content .de{
+    display: block;
+  }
+  #content .de .textBox{
+    margin: 50px;
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  #content .de .textBox strong{
+    text-align: center;
+  }
+  #content .history ul{
+    margin: 64px 40px 120px 40px;
+  }
+ 
+
+}    
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+#content{width: auto;}
+#content .history ul{
+    margin: 32px 20px 50px 20px;
+    grid-template-rows: repeat(1, 1fr);
+}
+#content .history ul li:first-child {
+    grid-column: 1/spen 1;
+}
+}

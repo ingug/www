@@ -1,0 +1,26 @@
+.contentArea{}
+.contentArea .im{ width: 597px; height: 442px; position: relative; left: 320px; top: 0;
+    background: url(../images/content2/sub2_2.jpg) no-repeat center;
+    margin-bottom: 100px;
+}
+
+.contentArea dl{ margin-bottom: 100px;
+    
+    padding: 30px;
+}
+.contentArea dt{
+    font-size: 22px; color: #04cf5c;
+     font-weight: 500;
+     padding: 10px 0;
+}
+.contentArea dd{
+    font-size: 20px; color: #333;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.contentArea dd:last-child{
+    border-bottom: none;
+}

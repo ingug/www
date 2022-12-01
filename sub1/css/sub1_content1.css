@@ -1,0 +1,15 @@
+/* ceo인사말 본문영역 */
+
+#content .contentArea{margin-top: 200px; position: relative;}
+#content .welcom{width: 400px; height: 400px; box-sizing: border-box; background: #ed1c24; 
+            line-height: 1.5em; font-size: 22px; color: #fff; padding: 34px 0 0 34px; 
+            position: absolute; left: 0; top: -100px; 
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+#content .welcom p{margin :50px 0 100px 0 ; font-size: 50px; font-weight: 500;}
+
+/* textArea */
+#content .textArea{ margin:100px 0 100px 0;}
+#content .textArea p{  font-size: 20px; line-height: 1.5em; margin-bottom: 45px;
+            text-align: justify;}
+#content .textArea p:last-child{text-align: right;}
+#content .textArea span{color:  #04cf5c;}

@@ -1,0 +1,24 @@
+
+#content .contentArea {}
+#content .contentArea strong{font-size: 30px;
+                        font-weight: 500;
+                        display: block;
+                        padding: 20px;
+                        text-align: center;
+                        line-height: 1.25em;
+                        color: #04cf5c;
+                        /* margin-bottom: 100px; */
+                        }
+#content .contentArea .im{  width: 720px;
+                            height: 595px;
+                            margin: 0 0 0 250px;
+                     background: url(../images/content1/sub3.png)no-repeat ;
+                    border-top: 3px solid #04cf5c;}
+#content .contentArea .im2{ width: 720px;
+                            height: 512px;
+                            margin: 15px 0 100px 250px;
+                            background: url(../images/content1/sub3_1.png) no-repeat;
+                            border-top: 1px solid #ddd;
+
+}
+

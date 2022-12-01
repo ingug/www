@@ -1,0 +1,43 @@
+.textArea{margin: 100px;}
+
+.tit{font-size: 30px; 
+    font-weight: 500;
+    padding: 20px;
+   
+    display: block;}
+
+
+table.type {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5em;
+
+  }
+  table.type thead th {
+    font-size: 30px;
+    font-weight: 500;
+    vertical-align: top;
+    padding: 20px;
+    
+  }
+  table.type tbody{
+    margin-bottom: 100px;
+    border-top: 3px solid #04cf5c;
+  }
+  table.type tbody th {
+    font-size: 20px;
+    width: 300px;
+    padding: 20px;
+    font-weight: 500;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+  }
+  table.type td {
+   
+    font-size: 20px;
+    width: 600px;
+    padding: 20px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+  }

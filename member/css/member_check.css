@@ -1,0 +1,100 @@
+ body{background-color: #f8f8f8} 
+.logo{margin: 50px auto 0; display: block; width: 143px; height: 37px;}
+#content{    width: 672px;
+    margin: 40px auto;
+    padding: 64px;
+    background: #fff;
+    box-shadow: 0 0 40px #0000001a;
+    position: relative;
+    border-radius: 40px;
+}  
+
+   
+
+    .member_tab{
+        padding: 30px 0;
+        border-top: 1px solid #333;
+    }
+    .member_tab a{
+        font-size: 24px;padding: 10px;
+        margin: 0 10px;color: #aaa;
+    }
+    .member_tab a.on{
+        color: #333;
+        border-bottom: 2px solid #333;
+        font-weight: 500;
+    }
+    .member_tab span{
+        font-size: 24px;
+        padding: 10px;margin: 0 10px;
+        color: #333;font-weight: 500;
+    }
+
+    .join{
+        text-align: left; 
+        position: relative;
+    }
+    .join h4{
+        font-size: 20px;
+        margin: 30px 0; 
+        color: #333;
+    }
+    .join h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+   
+    .join .policy{
+        padding: 10px; overflow-y: scroll; 
+        height: 150px; margin: 20px 0;
+        border: 1px solid #ddd;
+        background: #fff; font-size: 14px;
+         line-height: 1.5em;
+    }
+    .join .check{color: #333; margin: 20px 0 60px;}
+
+
+
+    .join .button{
+        text-align: center;
+        margin-top: 50px;
+         width: 100%;
+    }
+    .join .button .ok,.join .button button,.join .allcheck{
+        display: inline-block;width: 200px;line-height: 24px;
+        padding: 8px 0;border: none;background: #999; 
+        color: #fff;font-size: 15px; font-weight: 500; 
+        cursor: pointer;
+        margin: 0 5px;
+    }
+    .join .button .cancel{
+        display: inline-block;width: 200px;
+        line-height: 24px;padding: 8px 0;
+        border: none;background: #999;
+        color: #fff;font-size: 15px; 
+        font-weight: 500; cursor: pointer
+    }
+    .join .allcheck{}
+
+    input[type=checkbox] + label::before {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-color: transparent;
+        border: 2px solid #999;
+        border-radius: 50%;
+        content: '';
+        margin: 0px 15px -6px 0px;
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox] + label {
+        cursor: pointer;
+    }
+    input[type=checkbox]:checked + label::before {
+        background: #fff url(../images/checked_bg.png) center center no-repeat;
+        border: 2px solid #0075ff;
+    }

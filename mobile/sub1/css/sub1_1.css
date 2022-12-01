@@ -1,0 +1,41 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+.company{
+    margin: 0 4.5%;
+}
+.company strong{
+  display: block;
+  font-size:1.4375rem; font-weight:600; 
+  letter-spacing:-0.065rem; color:#04cf5c; 
+  margin:1.75rem 0 0.75rem;
+  
+}
+.type {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.type tbody{
+    margin-bottom: 100px;
+    border-top: 2px solid #04cf5c;
+  }
+  .type tbody th {
+    font-size: 0.938rem;
+    width: 30%;
+    padding: 10px;
+    font-weight: 500;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+  }
+.type td {
+    font-size: 0.938rem;
+    width: 70%;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}

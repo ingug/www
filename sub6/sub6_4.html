@@ -1,0 +1,63 @@
+<?
+   session_start();
+   @extract($_GET); 
+   @extract($_POST); 
+   @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인재채용-공지사항</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content4.css">
+
+    <script src="https://kit.fontawesome.com/319e9dc2af.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <!-- 비주얼 -->
+        <div class="main">
+            <h3>인사제도</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a  href="./sub6_1.html">인사관리</a></li>
+                <li><a  href="./sub6_2.html">FAQ</a></li>
+                <li><a  href="./sub6_3.html">문의하기</a></li>
+                <li class="current"><a href="../greet/list.php">공지사항</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <span>홈</span>&gt;<span>인재채용</span>&gt;<strong><span>공지사항</span></strong>
+                </div>
+                <h2>공지사항</h2>
+            </div>
+            <!-- 본문 콘텐츠 영역 -->
+            <div class="contentArea">
+               
+                <div class="content_toptopic">
+                    <p>공지사항</p>
+                </div>
+
+            </div>
+
+
+
+        </article>
+
+        <? include"../common/sub_footer.html" ?>
+
+</body>
+</html>

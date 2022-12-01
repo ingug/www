@@ -1,0 +1,19 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+.rc{
+  margin: 0 4.5%;
+}
+.rc h3{
+  font-size:1.4375rem; font-weight:600;
+   letter-spacing:-0.065rem; color:#04cf5c;
+    margin:1.75rem 0 0.75rem;
+}
+.rc p{text-align:justify; line-height: 1.3rem;}
+.rc p + img{padding:4rem 0 0;}
+.rc li:first-child{
+  margin-bottom: 50px;
+  
+}

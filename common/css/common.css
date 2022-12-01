@@ -1,0 +1,191 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px;color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+.hidden,#skipNav {display: block; position: absolute;
+        left: -1000%; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+
+#skipNav{position: relative; width: 100%; overflow: hidden; z-index: 60;}
+#skipNav a{display: block; height: 1px; margin-bottom: -1px;
+        font-size: 1.2em; color: #333; 
+        overflow: hidden; text-align: center;}
+#skipNav a:hover, #skipNav a:focus, #skipNav a:active{
+                height: auto; padding: 10px 0; background: #f2f2f2;
+}     
+
+.wrap{width: 100%; overflow: hidden;}
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+ /* header 공통영역   */
+
+
+#headerArea{ width: 100%;  height: 110px; position: fixed; 
+        z-index: 50; left: 0; top: 0; 
+        background: rgba(0, 0, 0,.6);
+        transition: background .5s;
+ }
+#headerArea .headerInner{width: 1220px; height: 100px; 
+        margin: 0 auto;  clear: both;
+}
+#headerArea h1{float:left;  padding:25px 0} 
+#headerArea h1 a{display: block; width: 140px; height: 37px; 
+        text-indent: -1000%; overflow: hidden; 
+        background: url(../images/logo.png) no-repeat center}
+
+#headerArea #gnb{  float: left; width:940px}
+#headerArea #gnb .menu{ float: left; width:16.66%; 
+        font-size: 20px; font-weight: 500; position:relative; }
+#headerArea #gnb .menu .depth1{padding: 36px 25px; display:block;
+        text-align:center; color:#fff;}
+#headerArea #gnb .menu ul{position: absolute; top: 100px; left: 0;}
+
+
+/* 2depth */
+#gnb ul.dropdownmenu> li ul{ width:100%; height:200px;
+         line-height:2em; display:none;
+       }
+#gnb ul.dropdownmenu li ul li{ 
+         text-align:center;
+}
+#gnb ul.dropdownmenu li ul li a{
+        display:block;  color:#333; font-size: 18px; font-weight: 400; transition: all .5s;
+}
+#gnb ul.dropdownmenu li ul li a:hover{
+             
+}
+
+
+
+
+
+
+#headerArea .rightMenu{float: right;}
+#headerArea .rightMenu li{float: left;
+        font-size: 15px; font-weight: 300;}
+#headerArea .rightMenu li a{display:block; color: #fff; padding:39px 5px}
+
+
+
+/* footer 공통영역 */ 
+#footerArea{height: 270px; background: #666; }
+#footerArea .footerInner{width: 1200px; margin: 0 auto; height: 270px;  position: relative;}
+#footerArea .footerLink{overflow: hidden; height: 100px;  }
+#footerArea .footerLink span{display: block; float: left; font-size: 30px; font-weight: 400; margin: 30px 0 0 20px; color: #fff;}
+#footerArea .footerLink .footerCenter{ float: left; margin: 40px 0 0 150px; font-size: 16px; font-weight: 300; color: #fff;}
+#footerArea .footerCenter li:first-child{float: left; margin-left: 0;}
+#footerArea .footerCenter li{float: left; margin-left: 20px;}
+#footerArea .footerCenter li a{color: #fff;}
+
+#footerArea .footerLink .sns{float: right; margin: 40px 35px 0px 60px;  }
+#footerArea .footerLink .sns ul{overflow: hidden;}
+#footerArea .footerLink .sns  li:first-child {float: left; margin-left: 0;}
+#footerArea .footerLink .sns  li {float: left; margin-left: 10px;}
+#footerArea .footerLink .sns  li a{display: block; color: #fff; font-size: 40px;}
+
+#footerArea .botm{clear: both; }
+#footerArea .botm .add{  border-top: 1px solid #999; padding: 25px 0 20px 25px; line-height: 1.5; font-weight: 400; color: #fff;}
+#footerArea .botm .copy{ font-size: 15px; font-weight: 300; color: #ccc; margin-left: 30px;}
+
+
+
+#footerArea .family_box {
+        float: right;
+        width: 190px;
+        height: 45px;
+        text-align: center;
+        position: relative;
+        bottom: 110px;
+      }
+      
+      #footerArea .family_box>a.selected {
+        border-color: #e7e7e7;
+        background-color: #e7e7e7;
+        color: #333;
+      }
+      
+      #footerArea .family_box a {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        color: #999;
+        transition: .2s linear all;
+        box-sizing: border-box;
+      }
+      
+      #footerArea .family_box>a {
+        border: 2px #999 solid;
+        line-height: 41px;
+        border-radius: 22.5px;
+      }
+      
+      #footerArea .family_box>a:hover {
+        background-color: #e7e7e7;
+        color: #333;
+        border-color: #e7e7e7;
+      }
+      
+      #footerArea .family_box ul {
+        width: 100%;
+        position: absolute;
+        bottom: 45px;
+        background-color: white;
+        display: none;
+        border-radius: 22.5px 22.5px 0 0;
+        overflow: hidden;
+        border-bottom: none;
+        box-sizing: border-box;
+        border: 1px solid #04cf5c;
+      }
+      
+      #footerArea .family_box ul a {
+        line-height: 45px;
+        color: #666;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      
+      #footerArea .family_box ul a:hover {
+        background-color: #04cf5c;
+        color: #fff;
+      }
+
+
+
+/* top move */
+/*.topMove{position:fixed; left:50%; bottom:20px; margin-left:700px; display:block; z-index:50;}*/
+.topMove{position:fixed; right:20px; bottom:20px; margin-left:700px; display:block; z-index:50;}
+.topMove a{display:block; width: 80px; height: 80px; background:url("../images/quicktop.png") 0 0 no-repeat #04cf5c; text-indent:-9999px; overflow: hidden; transition:background .3s;
+border-radius: 20%;
+}
+.topMove a:hover{background-position:0 -80px;}
+
+
+
+
+
+

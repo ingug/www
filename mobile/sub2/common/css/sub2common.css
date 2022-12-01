@@ -1,0 +1,17 @@
+/* 서브 비주얼, 1depth 타이틀 */
+.sub_layout .visual{position:relative; height:250px; background-image:url(../images/sub2_visual.jpg); background-position:50% 50%; background-repeat:no-repeat; background-size:cover;}
+.sub_layout .visual h3{position:absolute; left:50%; top:50%; font-size:1.6875rem; letter-spacing:-0.065rem; color:#fff; transform:translate(-50%, -40%);}
+
+/* 서브 메뉴 */
+.sub_layout .sub_menu{position:relative; border-bottom:1px solid rgba(0,0,0,0.2); letter-spacing:-0.065rem; z-index:55;}
+.sub_layout .sub_menu.on span a::after{transform:rotate(180deg);}
+.sub_layout .sub_menu::after{content:''; display: block; clear: both;}
+.sub_layout .sub_menu span a{display: block; height: 54px; line-height: 54px; padding:0 4.5%;}
+.sub_layout .sub_menu span a::after{content:''; position:absolute; right: 4.5%; top:50%; margin-top:-6px; display:block; width:12px; height: 12px; background:url(../images/navi_open.png) 50% 50% no-repeat; background-size:100% auto; transition:transform .3s;}
+.sub_layout .sub_menu ul{position:absolute; left:0; top:55px; width: 100%; background:#fff; box-shadow:0 2px 2px rgba(0,0,0,0.2); padding:1rem 0; display: none;}
+.sub_layout .sub_menu ul li a{display: block; line-height:40px; color:#666; padding:0 0 0 4.5%;}
+
+/* 2depth 타이틀 */
+#content .title_area{margin:3rem 0 2rem;}
+#content .title_area h2{text-align:center; font-size:1.875rem; font-weight:700; letter-spacing:-0.065rem;}
+#content .content_area img{max-width: 100%;}

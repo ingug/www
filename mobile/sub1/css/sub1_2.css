@@ -1,0 +1,16 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+.sub_company{margin:0 4.5%;}
+.sub_company h3{
+  font-size:1.4375rem; font-weight:600;
+   letter-spacing:-0.065rem; color:#04cf5c;
+    margin:1.75rem 0 0.75rem;
+}
+.sub_company p{text-align:justify;}
+.sub_company p + img{padding:4rem 0 0;}
+.sub_company img{
+  
+}

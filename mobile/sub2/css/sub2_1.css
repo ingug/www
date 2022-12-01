@@ -1,0 +1,14 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+.con1{
+  margin: 0 4.5%;
+}
+.con1 img{
+  display: block;
+}
+.con1 img:first-child{
+  margin-bottom: 50px;
+}

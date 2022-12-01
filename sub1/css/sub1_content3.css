@@ -1,0 +1,29 @@
+
+#content{margin-bottom: 100px;}
+#content .textArea{ position: relative;  margin-bottom: 100px;}
+#content .textArea ul{overflow: hidden; }
+#content .textArea ul li{width: 600px; height: 600px; overflow: hidden; float: left; position: relative; }
+#content .textArea ul li img{transform: scale(1); transition: all .3s ease-out;}
+#content .textArea ul li:hover img{transform: scale(1.1); filter: brightness(40%);}
+#content .textArea ul li dl{position: absolute; left: 0; top: 250px; text-align: justify; 
+       color: #fff; font-size: 18px; font-weight: 400;width: 100%; transition: all .5s;}
+#content .textArea ul li:hover dl{top: 160px;}
+#content .textArea ul li dt{ font-size: 30px; font-weight: 500; margin-bottom: 30px; transition: all .5s; text-align: center;}
+#content .textArea ul li:hover dt{ font-size: 40px; color: #04cf5c;}
+#content .textArea ul li dd{line-height: 2em; opacity: 0; transition: all .5s; margin: 0 25px; font-size: 20px;}
+#content .textArea ul li:hover dd{opacity: 1;}
+#content .textArea ul li a{position: absolute;left: 220px; top: 450px; opacity: 0; transition: all .5s;}
+#content .textArea ul li:hover a{opacity: 1;}
+
+#content .value{ }
+#content .value span{font-size: 30px; font-weight: 500; color: #333; margin-left: 0px;}
+
+#content .value ol{position: relative; }
+#content .value ol::before{content: ''; position: absolute; left: 0; top: -25px; width: 100%; height: 3px; background: #04cf5c;
+                     }
+#content .value ol li{margin: 30px 0 0 0px;  line-height: 1.5em; font-size: 20px; font-weight: 400;}
+
+
+
+
+ 

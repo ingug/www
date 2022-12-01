@@ -1,0 +1,39 @@
+.contentArea .sec1{margin-bottom: 100px; position: relative; padding-bottom: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.contentArea .img{position: absolute;
+        top: 0;
+        right: 0;
+        width: 252px;
+        height: 110px;
+        background: url(../images/content1/im1.gif) right top no-repeat;
+}
+.contentArea .sec1 p{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #666;
+
+}
+.contentArea .sec1 span{
+    color: #04cf5c;
+}
+.contentArea .sec1 p:last-child{
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contentArea .sec2{margin-bottom: 100px;}
+.contentArea .sec2 ul{
+    padding: 30px;
+    background: #f8f8f8;
+}
+
+.contentArea .sec2 li{
+    list-style: disc;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.5em;
+}

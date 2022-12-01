@@ -1,0 +1,5 @@
+#mailAddress{width:80%; border:1px solid #ccc; border-radius:10px; margin:10px 5%;
+  padding:20px 5%; margin-bottom: 100px;}
+#mailAddress li{ margin-bottom:15px}
+#mailAddress input, textarea{width:90%; border-radius:5px; border:0; padding:10px 5%;
+     background:#F0F0F0}

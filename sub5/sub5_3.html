@@ -1,0 +1,116 @@
+<?
+   session_start();
+   @extract($_GET); 
+   @extract($_POST); 
+   @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환경안전-품질환경</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content3.css">
+
+    <script src="https://kit.fontawesome.com/319e9dc2af.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <!-- 비주얼 -->
+        <div class="main">
+            <h3>홍보센터</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a href="../concert/list.php">뉴스룸</a></li>
+               
+                <li><a href="./sub5_2.html">안전활동</a></li>
+                <li><a class="current" href="./sub5_3.html">환경활동</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <span>홈</span>&gt;<span>홍보센터</span>&gt;<strong><span>환경활동</span></strong>
+                </div>
+                <h2>환경활동</h2>
+            </div>
+            <!-- 본문 콘텐츠 영역 -->
+            <div class="contentArea">
+                            <strong>환경사고 "0"회</strong>
+                            <p>
+                                인류의 생명과 삶에 공헌한다'는 그룹 기본이념을 바탕으로 회사의 이익을 희생하더라도 환경보전을 위한 투자와 환경오염물질 배출저감을 위한 노력을 지속적으로 추진하고 있습니다.
+                            </p>
+                            <table class="type">
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">환경의식 개선활동</th>
+                                        <td>
+                                            환경상식 홍보교육  <br>
+                                            환경보전 및 정화활동 장려
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">자체관리기준 준수율 향상</th>
+                                        <td>
+                                            법기준 50% 선을 자체기준으로 관리 <br>
+                                            배출시설 및 방지시설의 운전경향을 파악하여 잠재위험요인을 제거
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">RISK 관리 강화</th>
+                                        <td>
+                                            배출 및 방지시설의 운전경향관리를 통한 예방활동 강화 <br>
+                                            법규 제개정에 대한 능동적 대응
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">물류사고 예방활동</th>
+                                        <td>
+                                            유독물 운반업체 담당자 교육 및 운반기사 안전교육 강화 <br>
+                                            잠재위험 가상 시나리오 작성 및 훈련 실시
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">에너지 사용절감</th>
+                                        <td>
+                                            에너지절감추진위원회 발족(2008.6) <br>
+                                            연료사용절감    <br>
+                                            에너지 이용효율 증대 및 절전의 생활화 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">온실가스 배출저감</th>
+                                        <td>
+                                            공정개선을 통한 온실가스배출감축
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">폐기물 배출저감</th>
+                                        <td>
+                                            공정개선을 통한 폐기물 발생저감 <br>
+                                            2009.8.21일 환경부로부터 폐기물감량 우수사업장 지정
+                                        </td>
+                                    </tr>
+
+                                    </tbody>
+                            </table>
+            </div>
+
+
+        </article>
+
+        <? include"../common/sub_footer.html" ?>
+       
+
+</body>
+</html>

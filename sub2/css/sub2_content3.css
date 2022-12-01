@@ -1,0 +1,79 @@
+.tabs {margin-bottom: 100px; } 
+.tabs .tab_menu{overflow: hidden; width: 900px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.tabs .tab_menu li{float: left; width: 33.33%; }
+.tabs a.tab {display:block;text-align: center;
+          border: 1px solid #ddd;
+          font-size: 22px; background: #fff; color: #333; 
+          font-weight: 500;padding: 25px 0; transition: all .5s;} 
+.tabs a.tab2{
+  border-left: none;
+  
+}
+.tabs a.tab3{
+  border-left: none;
+}
+.tabs a.tab:hover{
+  background: rgba(0,87,147,.04);
+}
+.tabs .conlist { display: none;
+    padding:15px;line-height:1.5em;
+  
+
+  }
+
+.tabs .conlist .con1{
+  border-top: 2px solid #04cf5c;
+}
+.tabs .conlist .con1 dt{
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  padding: 25px 0;
+}
+.tabs .conlist .con1 dd{
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.5em;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.tabs .conlist .con2{
+  border-top: 2px solid #04cf5c;
+}
+.tabs .conlist .con2 dt{
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  padding: 25px 0;
+}
+.tabs .conlist .con2 dd{
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.5em;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.tabs .conlist .con3{
+  border-top: 2px solid #04cf5c;
+}
+.tabs .conlist .con3 dt{
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  padding: 25px 0;
+}
+.tabs .conlist .con3 dd{
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.5em;
+  text-align: justify;
+  padding: 0 20px;
+}

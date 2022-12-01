@@ -1,0 +1,61 @@
+<?
+   session_start();
+   @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스룸</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+
+    <script src="https://kit.fontawesome.com/319e9dc2af.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <!-- 비주얼 -->
+        <div class="main">
+            <h3>홍보센터</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li class="current"><a href="../concert/list.php">보도자료</a></li>
+                <li><a href="./sub5_2.html">안전활동</a></li>
+                <li><a href="./sub5_3.html">환경활동</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <span>홈</span>&gt;<span>홍보센터</span>&gt;<strong><span>뉴스룸</span></strong>
+                </div>
+                <h2>뉴스룸</h2>
+            </div>
+            <!-- 본문 콘텐츠 영역 -->
+            <div class="content_area">
+                <div class="summary">
+                    <p>동서석유화학 뉴스룸 입니다.</p>
+                  
+                </div>
+            </div>
+
+
+        </article>
+
+        <? include"../common/sub_footer.html" ?>
+       
+
+</body>
+</html>

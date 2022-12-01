@@ -1,0 +1,89 @@
+<?
+   session_start();
+   @extract($_GET); 
+   @extract($_POST); 
+   @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍보센터-안전활동</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+
+    <script src="https://kit.fontawesome.com/319e9dc2af.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <!-- 비주얼 -->
+        <div class="main">
+            <h3>홍보센터</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a href="../concert/list.php">뉴스룸</a></li>
+                
+                <li><a class="current" href="./sub5_2.html">안전활동</a></li>
+                <li><a href="./sub5_3.html">환경활동</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <span>홈</span>&gt;<span>홍보센터</span>&gt;<strong><span>안전활동</span></strong>
+                </div>
+                <h2>안전활동</h2>
+            </div>
+            <!-- 본문 콘텐츠 영역 -->
+                <div class="contentArea">
+                    <ul>
+                        <li>
+                            <div class="image"></div>
+                            <div class="con">
+                                <h3>보안방재활동</h3>
+                                <div class="info">
+                                    <p>산업사고 “0”와 공장 긴급가동정지 “0” 달성을 목표로 하고 있으며, RISK 관리, 중장기 노후설비 개체 계획을 기본으로 매년 구체화하여 실천하고 있으며 주요활동은 다음과 같다. <br>
+                                        <span>01</span> RISK 관리 강화 <br>
+                                        <span>02</span> 관리기술의 LEVEL UP <br>
+                                        <span>03</span> 설비의 예방점검 철저 및 중기 계획에 의한 노후설비 교체
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image"></div>
+                            <div class="con">
+                                <h3>노동안전</h3>
+                                <div class="info">
+                                    <p>무재해 사업장 지속을 목표로 하고 있으며, 이를 위한 안전문화 정착,현장중심의 안전사고 예방활동과 고령화에 따른
+                                        종업원의 건강증진활동 등 다양한 분야에 활동을 추진하고 있으며 주요활동은 다음과 같다. <br>
+                                        <span>01</span> 안전의 생활화 문화정착 <br>
+                                        <span>02</span> 잠재위험 개선 및 현장 무재해 활동 <br>
+                                        <span>03</span> 종업원 건강증진활동 활성화 <br>
+                                        <span>04</span> 노령화 대비 건강관리 강화 : 뇌, 심혈관 질환 및 성인병 예방활동
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+
+        </article>
+
+        <? include"../common/sub_footer.html" ?>
+       
+
+</body>
+</html>

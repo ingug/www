@@ -1,0 +1,98 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+
+#content .faq{position:relative; margin:0 4.5%;;}
+#content .faq h3{
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #333;
+  
+}
+
+#content .faq span{
+  float: right;
+  position: relative;
+  background: #04cf5c;
+}
+#content .faq span a{
+  display: block;
+  position: relative;
+  width: 160px;
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  /* background: url(../images/arrow_select_w.png) 90% 50% no-repeat; */
+}
+
+#content .faq .all::after{
+  content: '';
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  display: block;
+  width: 13px;
+  height: 42px;
+  background: url(../images/arrow_select_w.png) 50% 50% no-repeat;
+  background-size: 100% auto;
+  transition: transform .3s;
+}
+
+.faq .all.on::after {
+  content: '';
+  transform: rotate(180deg);
+}
+
+#content .faq ul{
+  margin:1rem 0 0;
+  float: left;
+  width: 100%;
+  
+}
+#content .faq ul li{
+  border-top:1px solid #ddd;
+}
+#content .faq ul li:last-child{
+  border-bottom:1px solid #ddd;
+}
+#content .faq ul li p
+{letter-spacing:-0.045rem; text-align:justify;
+}
+#content .faq ul li p a{
+  position:relative; display:block; 
+  padding:1rem 0 1rem 2.85rem; 
+  background:url(../images/navi_open.png) 98% 50% no-repeat; 
+  background-size:16px auto;
+}
+#content .faq ul li.on p a{
+  background-image:url(../images/navi_close.png);
+}
+#content .faq ul li p a::before{
+  content:'Q'; position:absolute; 
+  left:0.7142rem; top:.6rem; 
+  color:#04cf5c; font-size:1.3751rem; 
+  font-weight:700;
+}
+#content .faq ul li p:nth-child(2){
+  position:relative; 
+  padding:1rem 1rem 1rem 2.85rem; 
+  background:#f8f8f8; 
+  border-top:1px dotted #eee; 
+  display: none;
+}
+#content .faq ul li p:nth-child(2)::before{
+  content:'A'; position:absolute; 
+  left:0.7142rem; top:.6rem; color:#999; 
+  font-size:1.3751rem; font-weight:700;
+}
+.faq::after {
+  content: '';
+  display: block;
+  clear: both
+}
+
+

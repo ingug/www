@@ -1,0 +1,39 @@
+
+.contentArea{ margin-top: 100px;}
+.contentArea ul{}
+.contentArea ul li{position:relative; margin-top:70px;}
+.contentArea ul li:first-child{margin-top:0;}
+.contentArea ul li .image{
+  position:relative; left: 50%; margin-left:-1000px; 
+  width: 2000px; height: 500px; 
+}
+.contentArea ul li:nth-child(1) .image{
+  background:url("../images/content3/photo1.jpg") 50% 50% no-repeat;
+}
+.contentArea ul li:nth-child(2) .image{
+  background:url("../images/content3/photo2.jpg") 50% 50% no-repeat;
+}
+
+.contentArea ul li .con{
+  position:relative; top:-150px; 
+  padding:80px; background:#fff;
+   box-sizing:border-box; overflow:hidden; 
+   box-shadow:30px 30px 30px rgba(0,0,0,0.15);
+  border-bottom:5px solid #04cf5c;
+  transform:translate(0, 50px); 
+}
+  
+.contentArea ul li .con h3{
+  float:left; font-size:2.1875rem; 
+  letter-spacing:-0.045rem;
+}
+.contentArea ul li .con .info{
+  margin-left:300px; font-size:1.125rem; 
+  line-height: 2;
+}
+.contentArea ul li .con .info p{
+  text-align:justify;
+}
+.contentArea ul li .con .info span{
+  display: inline-block; color: #04cf5c;
+}

@@ -1,0 +1,105 @@
+<?
+   session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-오시는 길</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content5.css">
+
+    <script src="https://kit.fontawesome.com/319e9dc2af.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7befcb60152e7d933d99a937ac2bb4b4"></script>
+    <script src="./js/map.js"></script>
+
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <h3>회사소개</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a href="./sub1_1.html">CEO인사말</a></li>
+                <li><a  href="./sub1_2.html">회사개요</a></li>
+                <li><a href="./sub1_3.html">경영이념</a></li>
+                <li><a href="./sub1_4.html">회사연혁</a></li>
+                <li><a class="current" href="./sub1_5.html">오시는 길</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <span>홈</span>&gt;<span>회사소개</span>&gt;<strong><span>오시는 길</span></strong>
+                </div>
+                <h2>오시는 길</h2>
+            </div>
+            <!-- 본문 -->
+            <div class="contentArea">
+                <div class="map">
+                    <h3 class="hidden">울산공장</h3>
+                    <div id="home">
+                        
+                    </div>
+                    
+
+                </div>
+                <div class="location">
+                    <dl>
+                        <dt>주소 및 연락처</dt>
+                        <dd>
+                            <ul>
+                                <li><span>주소</span>
+                                    <p> 울산광역시 남구 사평로 108-70</p>
+                                </li>
+                                <li>
+                                    <span>전화</span>
+                                    <p>052-259-7600</p>
+                                </li>
+                                <li><span>팩스</span>
+                                   <p>052-259-7636</p>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt>찾아오시는 방법</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <span>자가용</span>
+                                    <p>동서석유화학 검색&#8594;서울톨게이트&#8594;울산톨게이트&#8594;대한유화삼거리방면 좌회전</p>
+                                </li>
+                                <li>
+                                    <span>대중교통</span>
+                                    <p>
+                                        <strong>석유화학단지입구 하차</strong>
+                                        <span><i class="bus_1">고속</i>754</span>
+                                        <span><i class="bus_2">공항</i>266</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+
+            </div>
+
+
+        </article>
+
+        <? include"../common/sub_footer.html" ?>
+       
+    
+</body>
+</html>

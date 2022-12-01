@@ -1,0 +1,47 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+.text_area{
+  margin: 0 4.5%;
+}
+.text_area strong{
+  display: block;
+  font-size:1.4375rem; font-weight:600; 
+  letter-spacing:-0.065rem; color:#04cf5c; 
+  margin:1.75rem 0 0.75rem;
+}
+.text_area p{text-align: justify; margin-bottom: 30px;}
+.text_area p + img{padding: 4rem 0 0;}
+
+.type {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.type tbody{
+  margin-bottom: 100px;
+  border-top: 2px solid #04cf5c;
+}
+.type tbody th {
+  font-size: 0.938rem;
+  width: 30%;
+  padding: 10px;
+  font-weight: 500;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #f3f6f7;
+}
+.type td {
+  font-size: 0.938rem;
+  width: 70%;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.text_area li:first-child{
+  margin-bottom: 50px;
+}

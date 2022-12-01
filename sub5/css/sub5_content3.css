@@ -1,0 +1,39 @@
+.contentArea{margin-bottom: 100px;}
+.contentArea strong{
+    font-size: 30px; 
+    font-weight: 500;
+    padding: 20px;
+    display: block;
+}
+.contentArea p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 20px;
+}
+table.type {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.8em;
+  width: 1200px;
+}
+table.type tbody{
+  margin-bottom: 100px;
+  border-top: 3px solid #339a65;
+}
+table.type tbody th {
+  font-size: 20px;
+  width: 300px;
+  padding: 20px;
+  font-weight: 500;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #f3f6f7;
+}
+table.type td {
+  font-size: 20px;
+  width: 600px;
+  padding: 20px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}

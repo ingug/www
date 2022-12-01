@@ -1,0 +1,56 @@
+.title_area{
+  text-align: center;
+  font-size: 1.500rem;
+  font-weight: 500;
+}
+
+
+.con_area .con_top span{
+  text-align:center; color: #04cf5c;
+}
+.con_area .con_top > p{
+  font-size:1.45rem; line-height: 1; font-weight: 700;
+}
+.con_area .con_top span{
+  display: block; margin:1rem 0 0;
+}
+.con_area .con_top span{
+  text-align:center;
+}
+.con_area .con_top > p{
+  font-size:1.45rem; line-height: 1; font-weight: 700;
+}
+.con_area .con_top span{
+  display: block; margin:1rem 0 0;
+}
+
+.con_area .con_top ul{
+  border-radius:10px; margin:2rem 1rem; 
+  padding:1rem 1.25rem; background:#04cf5c; 
+  box-shadow:20px 20px 40px 0 rgba(0,0,0,0.4); 
+}
+.con_area .con_top ul li{
+  color:#fff; padding:1rem 0; 
+  border-top:1px dashed rgba(255,255,255,.1); 
+  overflow: hidden;
+}
+.con_area .con_top ul li:first-child{border-top:0;}
+
+
+.con_area .con_list{
+  margin:3rem 4.5% 0;
+}
+.con_area .con_list li{
+  margin:1rem 0 0; padding:1.5rem 1.25rem; 
+  border:2px solid #eee; border-radius:10px; 
+  box-sizing:border-box;
+}
+.con_area .con_list li:first-child{margin-top:0;}
+.con_area .con_list li dl{}
+.con_area .con_list li dl dt{
+  font-size:1.125rem; 
+  letter-spacing:-0.045rem; color: #04cf5c;
+}
+.con_area .con_list li dl dd{
+  color:#888; text-align:justify; margin:1rem 0 0;
+}

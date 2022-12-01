@@ -1,0 +1,27 @@
+
+.contentArea{margin-bottom: 100px;}
+.contentArea .contTit{
+       display: block;
+       font-size: 30px;
+       font-weight: 500;
+       color: #333;
+       text-align: center;
+       margin: 100px 0;
+}
+.bgGrey.type {padding-bottom: 100px;}
+.im{margin: 0 auto;    margin-left: 50px; margin-bottom: 100px;}
+
+.imgBox {margin-left: 50px;} 
+.resourceTxt {margin-top: 70px;}
+.resourceTxt .row {display: table;width: 100%;margin-bottom: 60px;box-sizing:border-box;}
+.resourceTxt .row:last-child {margin-bottom: 0;}
+.resourceTxt .txtCont {display: table-cell;padding: 0 40px;width: 50%;box-sizing:border-box;}
+.resourceTxt .txtCont .tit {
+       margin-bottom: 10px;font-size: 24px; 
+       font-weight: 500; color: #04cf5c; text-align: center;
+}
+.resourceTxt .txtCont .subTit {margin-bottom: 20px;font-size: 18px;color: #999;text-align: center;}
+.resourceTxt .txtCont .dotList1 > li{
+       font-size: 20px; font-weight: 400; color: #333;
+       margin-bottom: 10px !important;line-height: 28px;}
+

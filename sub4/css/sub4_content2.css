@@ -1,0 +1,40 @@
+.contentArea .sec1{
+    position: relative;
+    margin-bottom: 100px; 
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.contentArea .sec1 .img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 252px;
+    height: 110px;
+    background: url(../images/content2/img.gif) right top no-repeat;
+}
+.contentArea .sec1 dl{}
+.contentArea .sec1 dt{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+.contentArea .sec1 dd{
+    list-style: disc;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #333;
+}
+.contentArea .sec2{margin-bottom: 100px;}
+.contentArea .sec2 ul{
+    padding: 30px;
+    background: #f8f8f8;
+}
+
+.contentArea .sec2 li{
+    list-style: disc;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.5em;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.jpg">
+    <link rel="apple-touch-startup-image" href="startup.jpg">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/layout.css">
+
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function() {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+</head>
+<body  data-spy="scroll" data-target="#navbar-example" data-offset="50">
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#navbar">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div class="container-fluid">
+        <header id="headerArea">
+            <h1 class="hidden">ferrari</h1>
+            <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+                <h2 class="hidden">gnb</h2>
+                <div class="header_inner" id="#top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".bs-example-js-navbar-scrollspy">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="ferrari logo"><span
+                                class="text-hide">ferrari</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right bs-example-js-navbar-scrollspy">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#about">ABOUT</a>
+                                <h3 class="hidden">ABOUT</h3>
+                            </li>
+                            <li><a href="#service">SERVICE</a>
+                                <h3 class="hidden">SERVICE</h3>
+                            </li>
+                            <li><a href="#lineup">LINE UP</a>
+                                <h3 class="hidden">LINE UP</h3>
+                            </li>
+                            <li><a href="#racing">RACING</a>
+                                <h3 class="hidden">RACING</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="main_visual">
+            <div id="carousel-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./images/main1.jpg" alt="First slide">
+                       
+                    </div>
+                    <div class="item">
+                        <img src="./images/main2.jpg" alt="Second slide">
+                       
+                    </div>
+                    <div class="item">
+                        <img src="./images/main3.jpg" alt="Third slide">
+                        
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+                    <img class="control" src="./images/left.png" alt="left">
+                </a>
+                <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+                    <img class="control" src="./images/right.png" alt="right">
+                </a>
+            </div>
+        </div>
+    </div>
+    <article id="content">
+        <h2 class="hidden">본문 콘텐츠영역</h2>
+        <div id="about">
+            <div class="title_area">
+                <h3>ABOUT US</h3>
+            </div>
+            <ol class="pluscontent_area row list-unstyled">
+                <li class="col-lg-12 col-sm-6">
+                    <div class="row">
+                        <img class="col-lg-6 col-sm-12" src="./images/about3.jpg" alt="">
+                        <div class="col-lg-6 col-sm-12 ">
+                            <h4>FERRARI DNA</h4>
+                            <p>Born of the spirit of racing, Ferrari epitomises the power of a lifelong passion and the beauty of limitless human achievement, creating timeless icons for a changing world.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-12 col-sm-6">
+                    <div class="row">
+                        <img class="col-lg-6 col-lg-push-6 col-sm-12" src="./images/about4.jpg" alt="">
+                        <div class="col-lg-6 col-lg-pull-6 col-sm-12">
+                            <h4>GOVERNANE</h4>
+                            <p>John Elkann is Chief Executive Officer of EXOR and Chairman of Stellantis N.V..
+
+                                Elkann obtained a scientific baccalaureate from the Lycée Victor Duruy in Paris and graduated in Engineering from Politecnico, the Engineering University of Turin. While at university, he gained work experience in various companies of the Fiat Group in the UK and Poland (manufacturing) as well as in France (sales and marketing).
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <div class="service" id="service">
+            <h3>SERVICE</h3>
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#newcars" role="tab" data-toggle="tab">NEW CARS</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#pre" role="tab" data-toggle="tab">OWNED CARS</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#classic" role="tab" data-toggle="tab">CLASSIC CARS</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#race" role="tab" data-toggle="tab">RACE CARS</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="newcars">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="img"><img src="./images/service.jpg" alt="car image1"></div>
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <div class="cont">
+                                <div class="text">
+                                        <strong>A NEW FERRARI</strong>
+                                        <p>Ferrari Financial Services offers potential owners an original and highly favourable way of purchasing a new Ferrari.  Our financial products are especially designed for the current Ferrari range and allow for convenience, flexibility and peace of mind.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="pre">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="img"><img src="./images/service2.jpg" alt="car image2"></div>
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <div class="cont">
+                                    <div class="text">
+                                        <strong>A PRE-OWNED FERRARI</strong>
+                                        <p>Ferrari Financial Services can assist clients purchasing pre-owned cars. Our financial products are aimed at cars which retain their value over time and are applicable to all Ferrari models, regardless of age or value.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="classic">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="img"><img src="./images/service3.jpg" alt="car image3"></div>
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <div class="cont">
+                                    <div class="text">
+                                        <strong>A CLASSIC FERRARI</strong>
+                                        <p>Ferrari Financial Services offers a range of special products designed to celebrate the heritage of all classic Ferraris. The specialist skills involved in caring for and maintaining these legendary models makes Ferrari Financial Services the ideal partner, whether this be for making a new purchase or for equity release from an existing car collection.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="race">
+                        <div class="row">
+                                <div class="col-md-5">
+                                    <div class="img"><img src="./images/service4.jpg" alt="car image4"></div>
+                                </div>
+                                <div class="col-md-5 col-md-offset-1">
+                                    <div class="cont">
+                                        <div class="text">
+                                            <strong>A FERRARI RACE CAR</strong>
+                                            <p>Ferrari Financial Services has developed a range of exclusive financial products aimed specifically at clients interested in purchasing race cars, including Challenge and GT series cars as well as special series XX and F1 single seaters which are exclusively available through the Corse Clienti programme. This allows clients to purchase extremely valuable race cars without major capital investment. This unique service is offered based on our specialist knowledge, evaluation expertise and risk analysis, allowing you to enjoy the thrill of racing with complete peace of mind.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- line up -->
+        <div id="lineup">
+            <h3>LINE UP</h3>
+            <div class="container">
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        F8-SPIDER
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+                    <div class="panel-body">
+                   <div class="row">
+                      <div class="lip col-sm-6">
+                         <img src="./images/f8-spider.png" alt="matte lip img">
+                         <dl>
+                           <dt>F8-SPIDER</dt>
+                           <dd></dd>
+                         </dl>
+                      </div>
+                     <div class="txt col-sm-6">
+                         <p>The F8 Spider’s greatest achievement is the fact that it unleashes its power instantaneously with zero turbo lag, whilst retaining this V8’s unique and very special soundtrack.</p>
+                     </div>
+                   </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        F8-TRIBUTO
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+                    <div class="panel-body">
+                     <div class="row">
+                        <div class="lip col-sm-6">
+                          <img src="./images/f8-tributo.png" alt="matte lip img">
+                          <dl>
+                            <dt>F8-TRIBUTO</dt>
+                            <dd></dd>
+                          </dl>
+                        </div>
+                        <div class="txt col-sm-6">
+                          <p>The F8 Tributo features state-of-the-art aerodynamics, integrating innovations and expertise developed thanks to the company’s involvement in the GT and Challenge championships. The solutions have been honed to create a series-production mid-rear-engined berlinetta with the highest level of performance available.</p>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            PUROSANGUE
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+                      <div class="panel-body">
+                       <div class="row">
+                          <div class="lip col-sm-6">
+                            <img src="./images/ferrari-purosangue-crop-.png" alt="matte lip img">
+                            <dl>
+                              <dt>PUROSANGUE</dt>
+                              <dd></dd>
+                            </dl>
+                          </div>
+                          <div class="txt col-sm-6">
+                            <p>
+                                The Ferrari Purosangue is the first ever four-door, four-seater car in Ferrari’s history, but models with two rear seats have played a significant role in the company’s strategy since the very beginning. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+        <!-- racing -->
+        <div class="racing" id="racing">
+            <h3 >RACING</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img kframe"><img src="./images/charles.jpg" alt="driver image1"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cont kframe">
+                        <div class="text">
+                            <strong>Charles Leclerc</strong>
+                            <p>Born to father Hervé Leclerc and mother Pascale, Leclerc grew up as the second oldest alongside two other siblings; a younger brother, Arthur, and an older brother, Lorenzo. His grandfather was Charles Manni, founder of Mecaplast (later Novares Group), which is currently run by his uncle, Thierry Manni. Throughout his childhood and early career, Leclerc maintained a close relationship with the late Jules Bianchi, to whom he was a godson. His father, Hervé, also raced cars, driving in Formula 3 in the 1980s and 1990s. Hervé died after a long illness, aged 54, just four days before Leclerc would go on to win the feature race at the 2017 Formula 2 Baku round. Leclerc wore a tribute helmet to Bianchi and Hervé for the 2019 Monaco Grand Prix, with the design of their respective helmets on either side.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-push-6">
+                    <div class="img kframe"><img src="./images/SAINZ.jpg" alt="driver image2"></div>
+                </div>
+                <div class="col-md-6 col-md-pull-6">
+                    <div class="cont kframe">
+                        <div class="text">
+                            <strong>Carlos Sainz Jr</strong>
+                            <p>Carlos Sanz Jr's mother is Reyes Vazquez de Castro/Monic Sainz and father is Carlos Sainz Sr.
+                                Carlos Sainz Jr. did not grow up in any ordinary family. His father was also a racer and not just any racer. His father had become famous through winning many races and winning the World Rally Championship twice. Eventually as Sainz Jr. got older his father mentored him throughout his journey to get in to F1 racing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team">
+            <div class="bac">
+               <h3>FERRAI TEAM</h3>
+            </div>
+        </div>
+
+    </article>
+    <footer id="footerArea">
+        <a class="topMove" href="#"> <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+            <span class="sr-only hidden">TOP</span></a>
+        <address>Ferrari N.V. - Holding company - A company under Dutch law, having its official seat in Amsterdam, the Netherlands and its corporate address at Via Abetone Inferiore No. 4, I-41053 Maranello (MO), Italy, registered with the Dutch trade register under number 64060977
+            COPYRIGHT(C) 2022 All rights reserved</address>
+    </footer>
+
+
+
+
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

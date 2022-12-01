@@ -1,0 +1,52 @@
+.contentArea{}
+.contentArea span{display: block; margin-bottom: 50px; 
+    font-size: 20px; font-weight: 400; margin-left: 380px;
+    color: #666;
+}
+
+.contentArea .im{
+   background: url(../images/content1/im.jpg); 
+   height: 400px;
+   margin-bottom: 100px;
+}
+
+#content .value{ margin-bottom: 100px;}
+#content .value strong{ font-size: 22px; display: block;
+    font-weight: 500; color: #04cf5c;
+    margin-bottom: 10px; text-align: center;
+}
+#content .value p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+#content .con{
+    width: 800px; margin: 0 auto;
+    background: #fff;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: .2s linear all
+}
+#content .con:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+#content .con dl{
+    
+}
+#content .con dt{
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#content .con dd{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.5em;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,106 @@
+.contentArea .sec1{
+   margin-bottom: 100px;
+   overflow: hidden;
+   padding-bottom: 50px;
+   border-bottom: 1px solid green;
+}
+ .head{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    padding: 20px 0;
+}
+.contentArea .sec1 dl{
+    float: left;
+    background-color: #003660;
+    width: 200px;
+    height: 190px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px rgb(0 0 0 / 20%);
+    transition: all 0.5s ease-out;
+}
+.contentArea .sec1 dl:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 20px rgb(0 0 0 / 40%);
+}
+.contentArea .sec1 dt{
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+    color: #fff;
+}
+.contentArea .sec1 dd{
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 1.5em;
+}
+/* sec2 */
+.contentArea .sec2{
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding-bottom: 50px;
+   border-bottom: 1px solid #04cf5c;
+}
+.contentArea .sec2 dl{
+    float: left;
+    background-color: #003660;
+    width: 280px;
+    height: 270px;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgb(0 0 0 / 20%);
+    transition: all 0.5s ease-out;
+}
+.contentArea .sec2 dl:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 20px rgb(0 0 0 / 40%);
+}
+.contentArea .sec2 dt{
+    text-align: center;
+    padding: 40px 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.contentArea .sec2 dd{
+    width: 230px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    line-height: 1.5em;
+}
+/* sec3 */
+.contentArea .sec3{
+    margin-bottom: 100px;
+}
+.contentArea .sec3 ul{}
+.contentArea .sec3 li{
+    padding-bottom: 30px;
+    border-bottom: 1px dotted #04cf5c;
+    transition: all .3s;
+}
+.contentArea .sec3 li:hover{
+    background: #f8f8f8;
+    color: #333;
+}
+.contentArea .sec3 li:first-child{
+    border-top: 1px dotted #04cf5c;
+}
+.contentArea .sec3 dl{ }
+
+
+.contentArea .sec3 dd{
+    list-style: disc;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+    line-height: 2em;
+}
+
